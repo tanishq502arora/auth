@@ -11,7 +11,7 @@ const app = express();
 require('./config/passport')(passport);
 
 // DB Config
-const db = process.env.MONGODB_URI || "mongodb://localhost:27017/";
+const db = process.env.MONGODB_URI || "mongodb://localhost:27017/app";
 
 // Connect to MongoDB
 mongoose
